@@ -16,4 +16,4 @@ G<br>
 
 ##Why?
 
-Mostly because I had some spare time and I wanted to mess with Node, OpenShift and Slack commands. This is the implementation of a [reddit meme](https://www.reddit.com/r/OutOfTheLoop/comments/3sj9fp/whats_up_with_the_vertical_text/) which origins are not clear, but it's commonly posted on some subreddits I read.
+Mostly because I had some spare time and I wanted to mess with Node, OpenShift and Slack commands. This is the implementation of a [meme](http://knowyourmeme.com/memes/vertical-posting) that's commonly posted on some subreddits I read.
