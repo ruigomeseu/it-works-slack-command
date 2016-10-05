@@ -18,6 +18,10 @@ router.use(function(req, res, next) {
     next(); // make sure we go to the next routes and don't stop here
 });
 
+router.get('/', function(req, res) {
+  return res.send('It works.');
+})
+
 router.post('/', function(req, res) {
     var text = req.body.text;
     if(text == 'combo') {
