@@ -21,7 +21,7 @@ router.use(function(req, res, next) {
 router.post('/', function(req, res) {
     var text = req.body.text;
     if(text == 'combo') {
-      var resultText = ":elegiggle:" + "\n" + ":4head:" + "\n" + ":lul" "\n"
+      var resultText = ":elegiggle:" + "\n" + ":4head:" + "\n" + ":lul" + "\n"
 
       var response = {
         'response_type': 'in_channel',
