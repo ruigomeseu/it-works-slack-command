@@ -39,6 +39,12 @@ router.post('/', function(req, res) {
       var response = {
         'response_type': 'in_channel',
         'text': resultText
+      } else if(text == 'tj') {
+        var resultText = ":kreygasm:" + "\n\n" + ":gachigasm:" + "\n\n" + ":gachibald:" + "\n\n"
+
+        var response = {
+          'response_type': 'in_channel',
+          'text': resultText
       }
 
       return res.send(response);
