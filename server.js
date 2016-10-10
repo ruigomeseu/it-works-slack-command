@@ -33,7 +33,17 @@ router.post('/', function(req, res) {
       }
 
       return res.send(response);
+    } else if(text == 'pauperio') {
+      var resultText = ":brokeback:" + "\n\n" + ":forseniq:" + "\n\n"
+
+      var response = {
+        'response_type': 'in_channel',
+        'text': resultText
+      }
+
+      return res.send(response);
     }
+
 
     text = text.replace(/\s+/g, '').toUpperCase().split("");
 
